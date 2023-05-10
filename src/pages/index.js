@@ -1,3 +1,5 @@
+import CardFilme from "@/components/CardFilme";
+
 export default function Home() {
   const mario = {
     titulo: "Super Mario ros.: O Filme",
