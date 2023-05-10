@@ -15,10 +15,18 @@ export default function Home() {
   return (
     <>
       <h1>Senac Filmes</h1>
-      <h2>Filmes em alta</h2>
 
+      <h2>Filmes em alta</h2>
+      <section>
       <CardFilme filme={mario} />
       <CardFilme filme={creed} />
+      </section>
+
+      <h2>Melhores dramas</h2>
+      <section>
+      <CardFilme filme={mario} />
+      <CardFilme filme={creed} />
+      </section>
     </>
   );
 }
