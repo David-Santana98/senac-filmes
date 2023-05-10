@@ -2,7 +2,7 @@ import CardFilme from "@/components/CardFilme";
 
 export default function Home() {
   const mario = {
-    titulo: "Super Mario ros.: O Filme",
+    titulo: "Super Mario Bros.: O Filme",
     poster:
       "https://www.themoviedb.org/t/p/w220_and_h330_face/i9XdxHsFrcqLkRWSF1coOHo4R39.jpg",
   };
