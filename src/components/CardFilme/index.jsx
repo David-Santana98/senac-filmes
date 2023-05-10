@@ -6,7 +6,7 @@ export default function CardFilme({filme}) {
         <div>
             <img src={filme.poster} alt="poster do filme" />
             <h3 className="text-xl">{filme.titulo}</h3>
-            <a href="#">detallhes</a>
+            <a className="bg-amber-500"  href="#">detallhes</a>
         </div>
     )
 }
