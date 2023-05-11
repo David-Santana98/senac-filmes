@@ -7,7 +7,7 @@ export default function SecaoFilmes(props) {
     <>
       <h2 className="text-2xl">{titulo}</h2>
       <section className="flex">
-        {filmes.map(filme => <CardFilme filme={filme}/>)}
+       {filmes.map(filme => <CardFilme filme={filme}/>)}
       </section>
     </>
   );
