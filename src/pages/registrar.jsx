@@ -11,7 +11,14 @@ export default function Registrar() {
                 <label htmlFor="email" className="text-amber-400
                 font-bold">Email</label>
                 <input id="email" type="email" className="rounded border-2
-                text-white border-slate-600 bg-slate-800 p-2 mb-4"/>
+                text-white border-slate-600 bg-slate-800 p-2 mb-4
+                focus:border-amber-400 focus:outline-none"/>
+
+                <label htmlFor="senha" className="text-amber-400
+                font-bold">Senha</label>
+                <input id="senha" type="password" className="rounded border-2
+                text-white border-slate-600 bg-slate-800 p-2 mb-4
+                focus:border-amber-400 focus:outline-none"/>
             </form>
         </div>
     )
