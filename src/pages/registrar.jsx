@@ -19,6 +19,8 @@ export default function Registrar() {
                 <input id="senha" type="password" className="rounded border-2
                 text-white border-slate-600 bg-slate-800 p-2 mb-4
                 focus:border-amber-400 focus:outline-none"/>
+                <button className="rounded bg-amber-400 text-black px-5
+                py-2 hover:bg-amber-300">Criar Conta</button>
             </form>
         </div>
     )
