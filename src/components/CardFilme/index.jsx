@@ -1,5 +1,4 @@
 
-
 export default function CardFilme({filme}) {
     // const {filme} = props; destruturação
     return (

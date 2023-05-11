@@ -1,16 +1,14 @@
 import CardFilme from "../CardFilme";
 
 export default function SecaoFilmes(props) {
-    const {titulo} = props
-    const {filmes} = props
-    return (
-        <>
-        <h2 className="text-2xl">{titulo}</h2>
-        <section>
-           {
-                filmes.map(filme => <CardFilme filme={filme} />)
-           }
-        </section>
-        </>
-    )
+  const { titulo } = props
+  const { filmes } = props
+  return (
+    <>
+      <h2 className="text-2xl">{titulo}</h2>
+      <section className="flex">
+        {filmes.map(filme => <CardFilme filme={filme}/>)}
+      </section>
+    </>
+  );
 }
